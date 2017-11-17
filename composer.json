@@ -21,6 +21,7 @@
     "support": {},
     "require": {
         "php": "^7.1",
+        "itrnka/ha-framework": "^1.5",
         "twig/twig": "^2.4"
     },
     "autoload": {

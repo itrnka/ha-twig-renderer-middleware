@@ -1,0 +1,31 @@
+{
+    "name": "itrnka/ha-twig-renderer-middleware",
+    "description": "Twig template renderer middleware for ha framework. This is a proxy to Twig.",
+    "type": "library",
+    "keywords": [
+        "ha",
+        "twig",
+        "template",
+        "renderer"
+    ],
+    "homepage": "https://github.com/itrnka/ha-twig-renderer-middleware",
+    "time": "2017-11-17",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "itrnka",
+            "email": "tic@tic.sk",
+            "role": "Developer"
+        }
+    ],
+    "support": {},
+    "require": {
+        "php": "^7.1",
+        "twig/twig": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ha\\Middleware\\Render\\Twig\\": "src/Twig"
+        }
+    }
+}

@@ -3,9 +3,12 @@
     "description": "Twig template renderer middleware for ha framework. This is a proxy to Twig.",
     "type": "library",
     "keywords": [
+        "ha-framework",
         "ha",
         "twig",
         "template",
+        "templates",
+        "template-renderer",
         "renderer"
     ],
     "homepage": "https://github.com/itrnka/ha-twig-renderer-middleware",
